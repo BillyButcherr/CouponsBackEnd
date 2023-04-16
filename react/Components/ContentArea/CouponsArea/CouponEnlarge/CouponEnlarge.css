@@ -1,0 +1,54 @@
+:root{
+    --card-size:20vw;
+}
+.CouponEnlarge{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.coupon {
+    height: 55vh;
+    background-color: #ffffff;
+    border: thin solid #dddddd;
+
+    border-radius: 20px 20px 5px 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    overflow: hidden;
+}
+.coupon:hover{
+    border: 2px solid #009897;
+    transition: 0.1s;
+
+    cursor: pointer;
+}
+.coupon .article-image{
+    margin: 0;
+    padding: 0;
+}
+.coupon .article-image img {
+    width: var(--card-size);
+}
+.coupon .article-content{
+    max-width: calc(var(--card-size) - 4vw);
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+}
+.coupon h5{
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: #009897;
+}
+.coupon p{
+    margin-bottom: 8px;
+}
+.coupon h4{
+    margin-top: 0;
+}
