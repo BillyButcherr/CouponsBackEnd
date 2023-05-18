@@ -1,0 +1,54 @@
+.CompanyUpdateForm{
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+    
+    border: thin solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.CompanyUpdateForm input{
+    display: block;
+    width: 300px;
+    font-size: 16px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 10px;
+    border: 2px solid #dddddd;
+}
+.CompanyUpdateForm input[type=text], input[type=email], input[type=password]{
+    font-size: 18px;
+    padding: 15px;
+    
+    border-radius: 10px;
+    border: 2px solid #dddddd;
+    outline: none;
+}
+.CompanyUpdateForm input[type=text]:focus, input[type=email]:focus, input[type=password]:focus{
+    border: 2px solid #009897; 
+    transition: 0.5s;
+}
+input:focus::placeholder{
+    color: rgb(192, 192, 192);
+}
+.CompanyUpdateForm input[type=submit]{
+    background-color: #009897;
+    color: #fff;
+
+    font-size: bold;
+}
+.CompanyUpdateForm input[type=submit]{
+    font-size: 18px;
+}
+.CompanyUpdateForm input[type=submit]:hover{
+    background-color: #018686;
+}
+.CompanyUpdateForm h2{
+    letter-spacing: 0.12rem;
+}
