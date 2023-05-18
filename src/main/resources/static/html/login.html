@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="../js/login.js" defer></script>
+
+    
+    <title>פרויקט קופונים</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="../home" id="logo">חופשות</a>
+            <ul class="nav-links">
+                <li class="active"><a href="#">קופונים</a></li>
+                <li><a href="">חברות</a></li>
+                <li><a href="#">לקוחות</a></li>
+                <li><a href="#">אודות</a></li>
+            </ul>
+            <!-- <input type="text" placeholder="חיפוש"> -->
+            <div class="account-box">
+                <a href="../login" class="login-box">
+                    <span class="material-symbols-outlined login-symbol">login</span>
+                    <span>כניסה</span>
+                </a>
+                <a href="../signup" class="signup-box">
+                    <span class="material-symbols-outlined signup-symbol">person</span>
+                    <span>הרשמה</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="content-login">
+        <h2>התחברות למערכת</h2>
+        <form action="" id="myForm" method="post">
+            <input type="email" id="email" placeholder='דוא"ל'/>
+            <input type="password" id="password" placeholder="סיסמה"/>
+            <input type="submit" id="submit" value="התחברות"/>
+        </form>
+    </div>
+    <footer class="footer"></footer>
+</body>
+</html>

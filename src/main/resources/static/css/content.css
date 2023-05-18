@@ -1,0 +1,19 @@
+.content{
+    width: 96vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+
+    margin: auto;
+    margin-top: 5vh;
+}
+.content-box{
+    padding: 10px 30px 50px 30px;
+
+    background-color: #ffffff;
+    border: thin solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
